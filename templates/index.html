@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Classification</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <input type="text" name="review" placeholder="Enter the review" required>
+        <button type="submit" class="">Classify</button>
+    </form>
+    <br>
+    <br>
+    {% if classification %}
+        <h1>{{classification}}</h1>
+    {% endif %}
+</body>
+</html>
