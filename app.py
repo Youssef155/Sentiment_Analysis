@@ -1,3 +1,5 @@
+# use "pyhton app.py" to run the application
+
 from flask import Flask, render_template, request
 import pickle
 import re
